@@ -1,3 +1,9 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* background-color: rgb(216, 216, 216); */
+}
+
 .nav {
     display: inline-flex;
     margin: 20px;
@@ -70,3 +76,101 @@ background-repeat: no-repeat;
     color: white;
 }
 
+.card-img-top{
+    text-align: center;
+    /* outline: 2px solid orangered; */
+    padding: 20px;
+    /* margin: 20px; */
+    font-size: 50px;
+    
+}
+
+.card{
+    width: 10px;
+    /* padding: 20px; */
+    margin: 10px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.cardbtn{
+    width: 100%;
+    text-align: left;
+    border: none;
+    background-color: orangered;
+    padding: 10px;
+    color: white;
+}
+
+.fa-chevron-right{
+    text-align: end;
+   
+}
+
+
+/* Hero */
+.main_hero_hection{
+    background-image: url(./imag/hero.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+
+.hero_text{
+    text-align: center;
+
+}
+
+
+.maon_hero{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.fa-file{
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.hero_icon{
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+.input{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.mail{
+    font-size: 20px;
+    color: orangered;
+    padding-top: 4px;
+}
+
+.input_submit{
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 0px 5px; 
+
+}
+
+.input_email{
+    width: 300px;
+    border: none;
+    background-color: aliceblue;
+    padding: 0px 5px; 
+}
